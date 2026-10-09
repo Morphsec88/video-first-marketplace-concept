@@ -1,4 +1,6 @@
 
+<img width="1050" height="768" alt="workshop" src="https://github.com/user-attachments/assets/21eea5e8-f5d5-4e1a-93c3-5983b7ecfbeb" />
+
 # Video First Marketplace Concept
 
 ## Introduction
