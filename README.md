@@ -37,7 +37,7 @@ Exposing an entire workshop or garage introduces significant privacy and securit
 
 ## Technical Feasibility & Modern Stack
 
-The implementation of the Video-First and Panorama-First Marketplace is entirely feasible using modern production-ready AI frameworks, edge computing, and specialized data infrastructure. The system processes unorganized, bulk layouts through the following architectural layers:
+The implementation of the Video-First and Panorama-First Marketplace is entirely feasible using modern production-ready AI frameworks, edge computing, and specialized data infrastructure. The system processes unorganized, bulk layouts, multi-party automated barter graphs, and regulatory-compliant workforce matchmaking through the following architectural layers:
 
 ### Video Pipeline (Dynamic Temporal Processing)
 *   **Frame Extraction & Downsampling:** Uploaded video streams are decoded using optimized pipelines (e.g., FFmpeg integrated with OpenCV) to extract high-quality keyframes while filtering out motion blur and redundant data.
@@ -48,6 +48,11 @@ The implementation of the Video-First and Panorama-First Marketplace is entirely
 *   **Giga-Pixel Tiling & Multi-Scale Inference:** High-resolution panoramic photographs capture dense, cluttered arrays of bulk items (e.g., a wall of toolboxes or open bins). To prevent downscaling from destroying small-object features, the platform uses a tiling approach (like SAHI - Slicing Aided Hyper Inference) to segment the panorama into overlapping high-resolution grids.
 *   **Open-Vocabulary Object Detection:** Zero-shot and open-vocabulary object detectors (such as Grounding DINO or OWL-ViT) analyze the segments to locate objects based on raw text descriptions without needing pre-trained classes.
 *   **Coordinate-to-Pixel Mapping & Cropping:** Once an item is identified, the system assigns bounding boxes relative to the global panorama canvas. When a user creates a contextual inquiry or makes a purchase offer, the system dynamically crops the corresponding visual coordinates, generating an isolated image artifact that serves as the visual context for the closed communication loop.
+
+### Labor Pipeline (Compliance & Routing Engine)
+*   **Skill & Location Mapping:** For users facing a capital deficit, the system tokenizes their verified skillsets and links them to local geo-coordinates. A graph database (e.g., Neo4j) maps these skill tokens against real-time, short-term provisional workforce demands submitted by regional business partners.
+*   **Platform-Backed Escrow & Clearing:** When a labor-to-asset match is authorized, the platform instantly clears the asset purchase on behalf of the buyer, holding the fund settlement in escrow. The buyer's liability is then amortized dynamically via physical labor.
+*   **Automated Administrative Layer:** To ensure full legal compliance, the platform acts as an automated Employer of Record (EOR). The pipeline handles automated shift-logging, tax declaration, and local labor regulatory reporting, generating a localized legal framework for each micro-labor contract completely behind the scenes.
 
 ---
 
