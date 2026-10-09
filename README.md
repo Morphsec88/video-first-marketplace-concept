@@ -1,18 +1,24 @@
-Vizuális Piactér (Video-First Marketplace) – Működési Koncepció
-A platform a hagyományos, tételenkénti hirdetésfeladás folyamatát váltja ki egyetlen pásztázó videórögzítésével, miközben a vásárlók számára másodpercre pontos, vizuális kereshetőséget biztosít.
+# Video First Marketplace Concept
 
-1. A kínálati oldal működése (Eladó)
-* Egylépéses feltöltés: Az eladó nem készít külön fotókat és leírásokat a szerszámokról vagy alkatrészekről. Belép az alkalmazásba, elindítja a kamerát, és 30–60 másodperc alatt lassan végigpásztázza a műhelyét, polcait vagy az ömlesztett tárolóit.
-* Passzív értékesítés: A videó közzétételével az eladó jelzi, hogy a felvételen látható tárgyak potenciálisan megvásárolhatók, de nem kell előre beáraznia vagy katalogizálnia őket.
+The platform eliminates the need for itemized listing and cataloging. By uploading a single panning video or a panorama photo, an entire inventory becomes instantly saleable, providing buyers with precise visual searchability.
 
-2. A háttérrendszer működése (AI és Keresőmotor)
-* Multimodális elemzés: A feltöltött videót a rendszer mesterséges intelligenciája (számítógépes látás és hangfelismerés) automatikusan feldolgozza. A szoftver felismeri a tárgyakat, formákat, márkajelzéseket, valamint az eladó által szóban említett kulcsszavakat.
-* Időbélyeges indexelés: Az AI minden azonosított objektumot egy pontos időbélyeggel (óra:perc:másodperc) lát el az adatbázisban (például: 0:24-nél egy satupad, 0:42-nél egy Bosch fúrógép).
+* **Catalogless Selling** – Sellers do not need to take individual photos, write descriptions, or price items in advance. Uploading a video or a panorama photo of shelves or bulk containers marks the items as potentially available. Sales are reactive, initiated by incoming buyer offers.
+* **AI Visual Search** – The system searches through all video and panoramic content based on the buyer's search terms. It instantly presents the relevant video segment or panorama section, automatically directing the view to the exact second and position where the item is located.
+* **Bulk Item Handling & Inquiry** – Buyers can request additional information about specific items visible in bulk piles or containers. The system attaches the precise coordinates and image frame to the message, allowing the seller to see exactly which item is being inquired about.
+* **Closed Transaction Flow** – Buyers make offers by interacting with a specific timestamp or section of the visual content. The system captures that exact frame to initiate a built-in chat. Communication, escrow payment, and shipping label generation are handled entirely within the platform, maintaining privacy and ensuring the process remains inside the application.
 
-3. A keresleti oldal működése (Vásárló)
-* Intelligens ugrás a videóban: A vásárló beírja a keresőbe a kívánt komponenst (pl. „13-as csillag-villás kulcs”). A rendszer kilistázza a releváns videókat, és a lejátszót automatikusan ahhoz a másodperchez tekeri, ahol az adott tárgy látható.
-* Helyalapú szűrés: A találatokat a rendszer térképes alapon (geolokáció szerint) rendezi, hogy a vevő a hozzá legközelebbi műhelyek kínálatát lássa előre.
+---
 
-4. Az adásvétel folyamata
-* Időbélyeges ajánlattétel: A videó lejátszása közben a vásárló rákattint egy fix „Megvenném” gombra. A rendszer rögzíti az aktuális másodperc képkockáját, és elküldi az eladónak egy belső chat-üzenetben az ajánlati árral együtt.
-* Zárt tranzakció: Az eladó jóváhagyja az ajánlatot, a rendszer letétbe helyezi a vételárat, majd automatikusan generálja a futárszolgálati szállítási címkét, így a feleknek nem kell közvetlenül megosztaniuk egymással a személyes elérhetőségeiket.
+## Intellectual Property & Licensing
+
+**Concept Owner:** Morphsec88  
+*All rights reserved. The unique business logic, operational flow, and conceptual architecture of this video-first marketplace model are the original intellectual property of the author.*
+
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+Copyright (c) 2026 Morphsec88
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
+
+To view a copy of this license, visit:
+https://creativecommons.org
